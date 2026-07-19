@@ -4,7 +4,7 @@
 int main()
 {
     char operation;
-    float firstnumber,secondnumber,result;
+    float firstnumber,second_number,result;
 
     printf("Enter the first number:\n");
     scanf("%f",&firstnumber);
@@ -13,21 +13,21 @@ int main()
     scanf(" %c",&operation);
 
     printf("Enter the second number:\n ");
-    scanf("%f",&secondnumber);
+    scanf("%f",&second_number);
 
 
 
     if (operation=='+'){
-        printf("Result: %.2f\n",firstnumber+secondnumber);
+        printf("Result: %.2f\n",firstnumber+secon_dnumber);
     }
     else if (operation=='-'){
-        printf("Result: %.2f\n",firstnumber-secondnumber);
+        printf("Result: %.2f\n",firstnumber-second_number);
     }
     else if (operation=='*'){
-        printf("Result: %.2f\n",firstnumber*secondnumber);
+        printf("Result: %.2f\n",firstnumber*secon_dnumber);
     }
     else if (operation=='/'){
-        printf("Result: %.2f\n",firstnumber/secondnumber);
+        printf("Result: %.2f\n",firstnumber/second_number);
     }
 
 
